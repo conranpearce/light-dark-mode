@@ -1,2 +1,1 @@
-# conranpearce.github.io
-# light-dark-mode
+# [conranpearce.github.io](http://conranpearce.github.io/) Light & Dark Mode
