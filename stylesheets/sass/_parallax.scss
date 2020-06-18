@@ -1,0 +1,43 @@
+@import "./variables";
+
+/** PARALLAX EFFECT **/
+/* Extended and modified from Keith Clark (https://keithclark.co.uk/articles/pure-css-parallax-websites/) */
+.parallax {
+    perspective: 1px; 
+    height: 100vh;
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+} 
+
+.parallax__layer--base {
+    transform: translateZ(0);
+}
+  
+.content {
+    text-align: center;
+    color: #FFF;
+    background-color: $backgroundColour;
+    margin-top: 100vh;
+    padding: 35px;
+    box-shadow: .5px .5px 10px rgba(0,0,0,0.5);
+}
+  
+.parallax__layer--deep {
+    transform: translateZ(-2px) scale(3);
+    padding: 150px;
+    text-align: center;
+} 
+
+.parallax__group {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+}  
