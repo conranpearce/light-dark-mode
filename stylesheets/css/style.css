@@ -1,23 +1,15 @@
-/* Colour Scheme: */
-/* #1e6262 */
-/* #2d767f */
-/* #b4f1f1 */
-/* #ecfffb */
-/* Colour Scheme: */
-/* #1e6262 */
-/* #2d767f */
-/* #b4f1f1 */
-/* #ecfffb */
 /** PARALLAX EFFECT **/
 /* Extended and modified from Keith Clark (https://keithclark.co.uk/articles/pure-css-parallax-websites/) */
-
 
 :root {
   --color-heading: #333;
   --color-heading-accent: #eee;
   --color-text: #555;
   --color-page: #fff;
-  --color-link: blue;
+  --color-form-text: #000;
+  --color-form-box: #eee;
+  --color-button-border: #555;
+  --color-button-hover: #eee;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,7 +18,10 @@
   --color-heading-accent: #555;
   --color-text: #ccc;
   --color-page: #26292a;
-  --color-link: #2d767f;
+  --color-form-text: #fff;
+  --color-form-box: #555;
+  --color-button-border: #eee;
+  --color-button-hover:#555;
   }   
 }
 
@@ -82,9 +77,7 @@ html, body {
 
 body {
   margin: 0;
-  /* background-color: #2d767f; */
   background-color: var(--color-page);
-
   font-family: 'Ubuntu', sans-serif;
   scroll-behavior: smooth;
 }
@@ -282,7 +275,8 @@ form {
   border: none;
   border-radius: 4px;
   font-size: 16px;
-  background-color: var(--color-page);
+  color: var(--color-form-text);
+  background-color: var(--color-form-box);
 }
 
 .email:focus, .message:focus {
@@ -313,7 +307,7 @@ textarea {
 
 button {
   padding: 8px 48px;
-  border: 2px solid white;
+  border: 2px solid var(--color-button-border);
   border-radius: 4px;
   background: var(--color-page);
   color: var(--color-heading);
@@ -322,7 +316,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--color-heading);
+  background-color: var(--color-button-hover);
   cursor: pointer;
 }
 
@@ -373,4 +367,3 @@ button:hover {
     max-width: 350px;
   }
 }
-/*# sourceMappingURL=style.css.map */
