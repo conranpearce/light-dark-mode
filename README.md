@@ -1,1 +1,1 @@
-# [conranpearce.github.io](http://conranpearce.github.io/) Light & Dark Mode
+# [Light & Dark Mode](https://conranpearce-light-dark.netlify.app/)
