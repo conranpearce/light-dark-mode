@@ -1,5 +1,3 @@
-# [Light & Dark Mode](https://conranpearce-light-dark.netlify.app/)
-
 <h1 align="center">
   <a href="https://conranpearce-light-dark.netlify.app//">:sunny: :new_moon: Light & Dark Mode</a>
 </h1>
