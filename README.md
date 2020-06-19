@@ -8,8 +8,9 @@
 
 <p align="center">This project is based on my GitHub pages website which you can find at https://conranpearce.github.io/</p>
 
-<p align="center">
-  <img src="demo/demo.gif"/>
+<p>
+  <img width='49%' src="demo/demo-light.png"/>
+  <img width='49%' src="demo/demo-dark.png"/>
 </p>
 
 ## Deployment
@@ -17,3 +18,25 @@
 Netlify has been linked to the GitHub repository to be able to have a live site up to date with the code being committed.
 
 Production branch hosted using Netlify live site at https://conranpearce-light-dark.netlify.app/
+
+## Prerequisites
+
+There are no prerequisites for this site.
+
+## Compatability :computer: :iphone:
+
+This site has currently only been tested on a Macbook, where the light and dark theme works across Google Chrome, Firefox and Safari.
+
+## Usage
+
+Using macOS (Mojave 10.14 onwards) light and dark mode is compatible.
+
+Steps to use light and dark mode:
+- Go into ```System Preferences```
+- Then select ```General```
+- At the top you shall see the options for ```Light``` and ```Dark``` mode
+
+<p>
+  <img width='49%' src="demo/settings-light.png"/>
+  <img width='49%' src="demo/settings-dark.png"/>
+</p>
