@@ -29,4 +29,14 @@ This site has currently only been tested on a Macbook, where the light and dark 
 
 ## Usage
 
+Using macOS (Mojave 10.14 onwards) light and dark mode is compatible.
 
+Steps:
+- Go into ```System Preferences```
+- Then select ```General```
+- At the top you shall see the options for ```Light``` and ```Dark``` mode
+
+<p>
+  <img width='49%' src="demo/settings-light.png"/>
+  <img width='49%' src="demo/settings-dark.png"/>
+</p>
