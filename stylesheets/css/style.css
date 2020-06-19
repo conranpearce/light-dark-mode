@@ -1,5 +1,4 @@
-/** PARALLAX EFFECT **/
-/* Extended and modified from Keith Clark (https://keithclark.co.uk/articles/pure-css-parallax-websites/) */
+/** LIGHT AND DARK MODE VARIABLES **/
 
 :root {
   --color-heading: #333;
@@ -24,6 +23,9 @@
   --color-button-hover:#555;
   }   
 }
+
+/** PARALLAX EFFECT **/
+/* Extended and modified from Keith Clark (https://keithclark.co.uk/articles/pure-css-parallax-websites/) */
 
 .parallax {
   -webkit-perspective: 1px;
