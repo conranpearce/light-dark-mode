@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://conranpearce-light-dark.netlify.app//">:sunny: :new_moon: Light & Dark Mode</a>
+  <a href="https://conranpearce-light-dark.netlify.app//">:sunny: :new_moon: Light & Dark Theme</a>
 </h1>
 
 <p align="center">Basic static website for displaying information about myself :man:
