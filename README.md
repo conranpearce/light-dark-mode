@@ -7,7 +7,7 @@
 <p align="center">Basic static website for displaying information about myself :man:
 </p>
 
-<p align="center">HTML5 and CSS3 have been used to create the website.
+<p align="center">JavaScript, HTML5 and CSS3 have been used to create the website.
 </p>
 
 <p align="center">
