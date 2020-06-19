@@ -14,6 +14,6 @@
 
 ## Deployment
 
-Netlify has been linked to the GitHub repository to be able to have live sites up to date with the code being committed.
+Netlify has been linked to the GitHub repository to be able to have a live site up to date with the code being committed.
 
 Production branch hosted using Netlify live site at https://conranpearce-light-dark.netlify.app/
